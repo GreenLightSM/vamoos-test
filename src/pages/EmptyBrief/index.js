@@ -4,7 +4,7 @@ import { Title, Wrap } from './style'
 const EmptyBrief = ({ notFound }) => {
   return (
     <Wrap>
-      <Title notFound>
+      <Title notFound={notFound}>
         {notFound
           ? 'Part with such id not found :('
           : 'Choose part to view info'}

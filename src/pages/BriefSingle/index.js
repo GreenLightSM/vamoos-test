@@ -43,7 +43,13 @@ const BriefSingle = () => {
           {item?.location?.name}
         </Row>
       )}
-      <Label text='Documents:' icon={docPng} alt='documents' />
+      <Label
+        text={
+          item?.documents?.length > 0 ? 'Documents:' : 'Documents: no documents'
+        }
+        icon={docPng}
+        alt='documents'
+      />
       <div style={{ paddingLeft: 20, margin: '15px 0' }}>
         {item?.documents?.map((item) => (
           <a href={item.attachment.fileUrl} target='_blank' key={item.id}>
