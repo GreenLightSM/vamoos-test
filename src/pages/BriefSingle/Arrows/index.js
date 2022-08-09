@@ -28,7 +28,7 @@ const Arrows = () => {
   return (
     <Wrap>
       {arrows.map((item) => (
-        <Link to={`/brief/${getPart(item.direction)}`}>
+        <Link to={`/brief/${getPart(item.direction)}`} key={item.key}>
           <img src={item.icon} alt={item.alt} />
         </Link>
       ))}
