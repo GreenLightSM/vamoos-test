@@ -22,18 +22,6 @@ export const Title = styled('div')`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  div {
-    display: flex;
-    align-items: center;
-    padding-left: 25px;
-  }
-  img {
-    width: 30px;
-    cursor: pointer;
-    &:last-child {
-      margin-left: 10px;
-    }
-  }
 `
 
 export const Description = styled('div')`
