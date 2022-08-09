@@ -1,0 +1,13 @@
+@import url('./fonts.css');
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  --regular: 'SF-Pro-Display-Regular', sans-serif;
+  --light: 'SF-Pro-Display-Light', sans-serif;
+  --bold: 'SF-Pro-Display-Bold', sans-serif;
+  --med: 'SF-Pro-Display-Medium', sans-serif;
+  --semiBold: 'SF-Pro-Display-Semibold', sans-serif;
+  --accent: #f9874b;
+}
